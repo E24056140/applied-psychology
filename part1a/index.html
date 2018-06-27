@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="index.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+<audio id="music1" src="../short/angry.mp3" type="audio/mpeg" autoplay="false" controls="controls"></audio>
+<audio id="music2" src="../short/disgust.mp3" type="audio/mpeg" autoplay="false" controls="controls"></audio>
+<audio id="music3" src="../short/joy.mp3" type="audio/mpeg" autoplay="false" controls="controls"></audio>
+<audio id="music4" src="../short/fear.mp3" type="audio/mpeg" autoplay="false" controls="controls"></audio>
+<audio id="music5" src="../short/sad.mp3" type="audio/mpeg" autoplay="false" controls="controls"></audio>
+
+<div id="BigBoxA1">
+<div class="box" id="BoxA1" ondrop="Drop(event)" ondragover="AllowDrop(event)">
+    <img id="ImgA" class="pic" width="100%" src="../emotion/joy.jpg" draggable="true" ondragstart="Drag(event)">
+</div>
+</div>
+<div id="BigBoxA2">
+<div class="box" id="BoxA2" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+</div>
+<div id="BigBoxB1">
+<div class="box" id="BoxB1" ondrop="Drop(event)" ondragover="AllowDrop(event)">
+    <img id="ImgB" class="pic" width="100%" src="../emotion/sad.jpg" draggable="true" ondragstart="Drag(event)">
+</div>
+</div>
+<div id="BigBoxB2">
+<div class="box" id="BoxB2" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+</div>
+<div id="BigBoxC1">
+<div class="box" id="BoxC1" ondrop="Drop(event)" ondragover="AllowDrop(event)">
+    <img id="ImgC" class="pic" width="100%" src="../emotion/fear.jpg" draggable="true" ondragstart="Drag(event)">
+</div>
+</div>
+<div id="BigBoxC2">
+<div class="box" id="BoxC2" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+</div>
+<div id="BigBoxD1">
+<div class="box" id="BoxD1" ondrop="Drop(event)" ondragover="AllowDrop(event)">
+    <img id="ImgD" class="pic" width="100%" src="../emotion/angry.jpg" draggable="true" ondragstart="Drag(event)">
+</div>
+</div>
+<div id="BigBoxD2">
+<div class="box" id="BoxD2" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+</div>
+<div id="BigBoxE1">
+<div class="box" id="BoxE1" ondrop="Drop(event)" ondragover="AllowDrop(event)">
+    <img id="ImgE" class="pic" width="100%" src="../emotion/disgust.jpg" draggable="true" ondragstart="Drag(event)">
+</div>
+</div>
+<div id="BigBoxE2">
+<div class="box" id="BoxE2" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+</div>
+<div style="clear:both;"></div>
+<script src="../maina.js"></script>
+</body>
+</html>
