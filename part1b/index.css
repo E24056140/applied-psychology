@@ -1,0 +1,95 @@
+body{
+	background-image:url("../bg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.pic{
+	width=18vw;
+}
+audio{
+	width:19vw;
+}
+#music1{
+	position: fixed;
+	top:10%;
+	left:1%;
+}
+#music2{
+	position: fixed;
+	top:10%;
+	left:20.5%;
+}
+#music3{
+	position: fixed;
+	top:10%;
+	left:40%;
+}
+#music4{
+	position: fixed;
+	top:10%;
+	left:59.5%;
+}
+#music5{
+	position: fixed;
+	top:10%;
+	left:79%;
+}
+.box{
+    width:17vw;
+    height:13vw;
+    padding:10px;
+    border:1px #ccc dashed;
+    float:left;
+    margin-right:10px;
+}
+#BoxA1{
+	position: fixed;
+	top:65%;
+	left:1%;
+}
+#BoxA2{
+	position: fixed;
+	top:20%;
+	left:1%;
+}
+#BoxB1{
+	position: fixed;
+	top:65%;
+	left:20.5%;
+}
+#BoxB2{
+	position: fixed;
+	top:20%;
+	left:20.5%;
+}
+#BoxC1{
+	position: fixed;
+	top:65%;
+	left:40%;
+}
+#BoxC2{
+	position: fixed;
+	top:20%;
+	left:40%;
+}
+#BoxD1{
+	position: fixed;
+	top:65%;
+	left:59.5%;
+}
+#BoxD2{
+	position: fixed;
+	top:20%;
+	left:59.5%;
+}
+#BoxE1{
+	position: fixed;
+	top:65%;
+	left:79%;
+}
+#BoxE2{
+	position: fixed;
+	top:20%;
+	left:79%;
+}
+
